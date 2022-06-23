@@ -2,7 +2,7 @@
 
 ### How to run?
 
-In the root folder, run:
+In the root folder, run
 
 ``` go run main.go ```
 
