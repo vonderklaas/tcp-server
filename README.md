@@ -1,4 +1,4 @@
-# Go PostgreSQL CRUD
+# Golang + PostgreSQL CRUD
 
 ### How to run?
 
