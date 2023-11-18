@@ -1,15 +1,20 @@
-# Golang + PostgreSQL CRUD
+### Quick Start
 
-### How to run?
+Add you database URL to in .env file
+```env
+POSTGRES_URL="postgres://USERNAME:PASSWORD@localhost:5432/DB_NAME"
+```
 
-In the root folder, run
+Run the app
 
-``` go run main.go ```
+```terminal
+go run main.go
+```
 
 ### How to consume?
 
-Use Postman, Thunder Client for VS Code or even your Browswer to Make API Requests
+A couple of options
 
-### Additional
-
-Create .env file from .env.dev example, provide it with your Database credentials
+Postman - https://www.postman.com/ <br>
+Thunder Client for VS Code - https://www.thunderclient.com/ <br>
+Browswer URL to Make API Requests - https://launchschool.com/books/http/read/making_requests <br>
