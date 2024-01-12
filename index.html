@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTMX & Go - Demo</title>
+    <title>Go + HTMX</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -19,11 +19,9 @@
   </head>
 
   <body class="container">
-    <br />
-    <h1>Go + HTMX</h1>
     <div class="row mt-4 g-4">
       <div class="col-8">
-        <h2 class="mb-4">Film List</h2>
+        <h2 class="mb-4">Movies</h2>
 
         <ul class="list-group fs-5 me-5" id="film-list">
           {{ range .Films }} {{ block "film-list-element" .}}
@@ -37,12 +35,7 @@
       <div class="col-4">
         <h2 class="mb-4">Add Film</h2>
 
-        <form
-          hx-post="/add-film/"
-          hx-target="#film-list"
-          hx-swap="beforeend"
-          hx-indicator="#spinner"
-        >
+        <form hx-post="/add-film/" hx-target="#film-list" hx-swap="beforeend">
           <div class="mb-2">
             <label for="film-title">Title</label>
             <input
