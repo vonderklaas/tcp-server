@@ -1,20 +1,17 @@
 ### Quick Start
 
-Add you database URL to in .env file
-```env
-POSTGRES_URL="postgres://USERNAME:PASSWORD@localhost:5432/DB_NAME"
-```
+Start server
 
-Run the app
-
-```terminal
+```go
 go run main.go
 ```
 
-### How to consume?
+Server would start at `localhost:8080`
 
-A couple of options
+Go ahead and make requests to see how HTMX actually works!
 
-Postman - https://www.postman.com/ <br>
-Thunder Client for VS Code - https://www.thunderclient.com/ <br>
-Browswer URL to Make API Requests - https://launchschool.com/books/http/read/making_requests <br>
+### Stack
+
+Go — https://go.dev/doc/
+HTMX — https://htmx.org/
+Bootstrap — https://getbootstrap.com/
