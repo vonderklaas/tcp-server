@@ -12,6 +12,6 @@ Go ahead and make requests to see how HTMX actually works!
 
 ### Stack
 
-Go — https://go.dev/doc/
-HTMX — https://htmx.org/
+Go — https://go.dev/doc/ <br/>
+HTMX — https://htmx.org/ <br/>
 Bootstrap — https://getbootstrap.com/
