@@ -2,7 +2,7 @@
 
 Start server
 
-```
+```console
 go run main.go
 ```
 
