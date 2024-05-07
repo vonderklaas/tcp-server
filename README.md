@@ -7,26 +7,30 @@ Additionally, it maintains a dynamic list of connected peers and displays their 
 ### Quick Start
 
 Start server
-```
+```console
 go run main.go
 ```
 
 Spawn as much peers as you want
-```
+```console
 telnet localhost 3000
 ```
 
 Send your bytes to the server
-```
+```console
 Hello, world!
 ```
 
-See it on server
-
-```
+See your messages
+```console
 ...
 ...
 Message from %conn.RemoteAddr()%: Hello, world!
+```
+
+Receive "ping-pong"
+```console
+Thank you for your message!
 ```
 
 ### References
